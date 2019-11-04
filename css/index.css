@@ -1,0 +1,33 @@
+*{
+    background: grey;
+
+}
+h1{
+    color: red;
+    width: 160px;
+    margin: 10px auto;
+}
+p{
+   color: red;
+    width: 160px;
+    margin: 10px auto;
+
+}
+
+#chosen{
+    background-color: black;
+}
+
+.selected{
+    border: 1px solid rgb(43, 0, 0);
+    width: 120px;
+    margin: 20px auto;
+}
+
+p:hover{
+   text-decoration: underline;
+}
+
+p::first-letter{
+    font-size: 4rem;
+}
